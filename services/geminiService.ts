@@ -1,8 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 
-// Fix: The API key must be obtained from `process.env.API_KEY` as per the guidelines.
-// `import.meta.env` is not the correct way to access it and was causing a TypeScript error.
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+// Per user order, the API key is now hardcoded directly in the application.
+const ai = new GoogleGenAI({ apiKey: 'AIzaSyCURksDqr6z4bVadvVijwfuh5biB5fuSrc' });
 
 interface PdfDetails {
   pageCount: number;

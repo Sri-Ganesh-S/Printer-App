@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Gemini Print Hub",
+  "description": "An application for students to upload PDFs, get a cost estimate using Gemini, and send them to a print queue. A printer user can then view the queue, print the documents, and mark the jobs as complete.",
+  "requestFramePermissions": []
+}

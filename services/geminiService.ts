@@ -1,6 +1,7 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
 
+// FIX: The API key must be obtained exclusively from `process.env.API_KEY`.
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 interface PdfDetails {
